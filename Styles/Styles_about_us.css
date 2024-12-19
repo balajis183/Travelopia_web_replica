@@ -1,0 +1,652 @@
+* {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+  
+  body {
+    padding: 0%;
+    margin: 0%;
+    /* font-family: Raleway, sans-serif; */
+    /* font-weight: 450;
+      display: block; */
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* navigation starts */
+  .header {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 125px;
+  }
+  
+  #text-logo {
+    width: 151px;
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .logo {
+    width: 106px;
+    height: auto;
+    margin-top: -60px;
+    filter: brightness(1);
+  }
+  
+  .image-container img {
+    opacity: 1;
+    filter: brightness(0.7);
+  }
+  
+  .nav {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 30px;
+  }
+  
+  .nav-bar a {
+    margin-right: 50px;
+    color: white;
+    /* padding: 30px 15px 25px; */
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .center h1 {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    /* line-height: 1.4545454545em; */
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  /* ------------------------------------------------------------------------------------------------------- */
+  
+  /* //main collage section  */
+  
+  .collage-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* text content  */
+  .text-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 100px;
+    max-width: 600px;
+    min-width: 250px;
+  }
+  
+  /* image section  */
+  .image-content-1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 250px;
+  }
+  
+  /* image1 full width  */
+  .img-1 {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .img-1 img {
+    width: 100%;
+  }
+  
+  /* 2 images at a time  */
+  
+  .img-2 {
+    width: 106%;
+    max-width: 106%;
+    display: flex;
+  }
+  
+  /* inside images width */
+  
+  .img-2 img {
+    width: 45%;
+  }
+  
+  /* image 2 */
+  
+  .img-2 > #bottom-img-1 {
+    margin-right: 25px;
+  }
+  
+  /* -------------------------------------------------------------------------------------------- ---------------------*/
+  /* collage section2 */
+  
+  .collage-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* image section  */
+  .image-content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 100px;
+    max-width: 600px;
+    min-width: 250px;
+  
+    justify-content: center;
+  }
+  
+  /* image1 full width  */
+  .img-1-1 {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .img-1-1 img {
+    width: 100%;
+  }
+  
+  /* 2 images at a time  */
+  
+  .img-2-1 {
+    width: 106%;
+    max-width: 106%;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  
+  /* inside images width */
+  
+  .img-2-1 img {
+    width: 45%;
+  }
+  
+  /* image 2 */
+  
+  .img-2-1 > #bottom-img-2 {
+    margin-right: 25px;
+  }
+  
+  /* text content  */
+  .text-content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    width: 40%;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 250px;
+  }
+  /* ------------our business ------------- */
+  
+  #icon-h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  
+  .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    max-width: 1200px;
+    min-width: 250px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+  }
+  
+  .icon-1 h3,
+  .icon-2 h3,
+  .icon-3 h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .icon-1,
+  .icon-2,
+  .icon-3 {
+    width: 30%;
+    margin-right: 50px;
+    line-height: 1.6em;
+  }
+  
+  .info-icons-grid__icon {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    border: 3px solid #185274;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ---------paragraph quote---------- */
+  
+  .quote {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-align: center;
+    color: #185274;
+    margin-bottom: 125px;
+  }
+  
+  /* ----------our leadership----------- */
+  
+  .collage-lead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 135px;
+    line-height: 1.7em;
+  }
+  
+  .text-content-lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 40%;
+    max-width: 600px;
+    min-width: 250px;
+    font-size: 22px;
+  }
+  
+  .button-leader {
+    display: inline-block;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .person-img {
+    display: inline-block;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 250px;
+    width: 40%;
+  }
+  .person-img img {
+    width: 100%;
+  }
+  
+  /* ------------------- --------------- people section--------------------------------------------------------------------------------------*/
+  
+  .collage-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+  }
+  
+  .image-content-p {
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 100px;
+    justify-content: center;
+    max-width: 600px;
+    min-width: 250px;
+    align-items: center;
+  }
+  .img-1-p img {
+    width: 400px;
+    height: auto;
+  }
+  .img-2-p img {
+    margin-left: 16.666666667%;
+    margin-top: -16.66666666667%;
+    width: 400px;
+    height: auto;
+  
+    /* z-index: 5; */
+  }
+  
+  .text-content-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    width: 40%;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 250px;
+  }
+  
+  /* ------------------------------------- Similar section that of collage-1-----------------------------------------------------------------------------------*/
+  
+  /* similar section of collage-1 changed all ids  and classes to collage-s added -s  */
+  
+  .collage-s {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 170px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* text content  */
+  .text-content-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    font-size: 20px;
+    width: 40%;
+    /* margin-right: auto; */
+    max-width: 600px;
+    min-width: 250px;
+    margin-right: 100px;
+  }
+  
+  /* image section  */
+  .image-content-s {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 250px;
+  }
+  
+  /* image1 full width  */
+  .img-s {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .img-s img {
+    width: 100%;
+  }
+  
+  /* 2 images at a time  */
+  
+  .img-2-s {
+    width: 106%;
+    max-width: 106%;
+    display: flex;
+  }
+  
+  /* inside images width */
+  
+  .img-2-s img {
+    width: 45%;
+  }
+  
+  /* image 2 */
+  
+  .img-2-s > #bottom-img-s {
+    margin-right: 25px;
+  }
+  
+  /* --------------------------map section----------------------------------------------------------------------------------*/
+  .list-map-section {  
+    background-color: #d7d7d7;
+    display: block;   
+    margin-bottom: 150px;
+  }
+  
+  /* // make sure the above fuction has block element so that it works well  */
+  
+  .list-map_map {
+    position: relative;
+    height: 500px;
+    /* margin-bottom: 0; */
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #image-map {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    object-fit: cover;
+    max-height: 500px;
+  }
+  
+  #h2-heading {
+    font-size: 42px;
+    display: flex;
+  }
+  
+  .list-map-content {
+    position: absolute;   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .button-map button {
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    background-color: inherit;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 19px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  /* --map text-content-- */
+  .map-text-content {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #d7d7d7;
+    padding: 0;
+    padding-top: 75px;
+    margin: 0;
+    z-index: 5;
+    height: 268px;
+    width: 100%;
+    line-height: 1.8em;
+    min-width: 800px;
+    flex-wrap: wrap;
+    margin-top: -25px;
+  }
+  
+  .map-p {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    align-items: center;
+  }
+  
+  /* li elements no need to target */
+  
+  .map-text-content li {
+    list-style-type: none;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.8em;
+    align-items: center;
+  }
+  
+  .map-text-content ul {
+    margin: 0; /* Remove default margin of ul */
+    padding: 0; /* Remove default padding of ul */
+    list-style: none; /* Remove bullets */
+    text-align: start; /* Align text to the left */
+    line-height: 1.8em;
+  }
+  
+  .map_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    flex-basis: auto;
+    padding: 0 10px;
+    flex-shrink: 0;
+    /* min-width: auto; */
+  }
+  
+  /* -------------------------- */
+  
+  /* last section starts */
+  
+  .box-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    /* position: absolute;    */
+    /* //see position  */
+  }
+  
+  .box-container > .banner-img {
+    height: 430px;
+    width: 610px;
+  }
+  
+  .box-container > .banner-img img {
+    height: 430px;
+    width: 610px;
+  }
+  .box-container > .container {
+    height: 430px;
+    width: 620px;
+    background-color: #117ca8;
+    display: flex;
+  }
+  .box-container > .container > .text-box {
+    text-align: start;
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+  }
+  
+  .button-2 {
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  /* -------------------------------------------------------------------------------------------------------------- */
+  
+  /* footer starts */
+  
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: text-top;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  
+  /* footer icon section with image */
+  .footer-1 {
+    padding-bottom: 20px;
+    margin-right: 108px;
+  }
+  
+  .footer-1 img {
+    width: 251px;
+    height: auto;
+  }
+  
+  /* footer 2 section  */
+  
+  .footer-2 {
+    margin-right: 108px;
+  }
+  .footer-2 a {
+    display: block;
+    padding-bottom: 20px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* footer 3 section  */
+  .footer-3 {
+    margin-right: 60px;
+  }
+  
+  .footer-3 a {
+    display: block;
+    padding-bottom: 20px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer-credits {
+    text-align: start;
+  }
+  /* --------------------------------------------------------------------------------------------------------------- */
+  
