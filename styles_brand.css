@@ -1,0 +1,271 @@
+* {
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  /* font-family: Raleway, sans-serif; */
+  font-weight: 450;
+  display: block;
+}
+
+/* navigation starts */
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#text-logo {
+  width: 151px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.logo {
+  width: 106px;
+  height: auto;
+  margin-top: -60px;
+  filter: brightness(1);
+}
+
+.image-container img {
+  opacity: 1;
+  filter: brightness(0.7);
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  /* position: fixed    for making it fix and z index=1 */
+  top: 8px;
+  left: 16px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.nav-bar a {
+  margin-right: 50px;
+  color: white;
+  /* padding: 30px 15px 25px; */
+  font-weight: 700px;
+  font-size: 20px;
+}
+#font-brands {
+  font-weight: bold;
+}
+
+.center h1 {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  /* line-height: 1.4545454545em; */
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* Group of all sections having same properites */
+/* which has image and text content */
+
+/* .card-section {
+  
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right:50px ;
+} */
+
+.card-title {
+  padding-left: 40px;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.images_section {
+  display: inline;
+  width: 40%;
+  vertical-align: top;
+  padding-left: 35px;
+  margin-right: 20px;
+}
+
+.card-text {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 60%;
+  padding-left: 40px;
+  font-size: 26px;
+  margin-top: -38px;
+  position: absolute;
+  /*  this is very important if you increase it does align properly */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* collage section starts */
+/* Main container for the section */
+.collage-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  /* padding: 20px; */
+  margin-bottom: 150px;
+  margin-left: 120px;
+  margin-right: 140px;
+}
+
+/* Text section styling of collage section  */
+.card-text-content {
+  width: 50%;
+  font-size: 26px;
+  margin-right: 35px;
+  margin-left: 60px;
+  margin-top: 0px;
+  display: inline;
+}
+
+/* Button styling */
+.collage-section > .card-text-content .button {
+  display: inline;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 26px;
+}
+
+.div_image-container {
+  width: 60%;
+}
+
+.div_image-1 {
+  width: 480px;
+  height: 260px;
+  display: inline;
+}
+
+.div_image-1 img {
+  width: 480px;
+  height: 280px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.div_image-2 {
+  display: flex;
+}
+
+.div_image-2 img {
+  width: 232px;
+  height: 232px;
+}
+
+/* last section starts */
+
+.box-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 125px;
+  /* position: absolute;    */
+  /* //see position  */
+}
+
+.box-container > .banner-img {
+  height: 430px;
+  width: 610px;
+}
+
+.box-container > .banner-img img {
+  height: 430px;
+  width: 610px;
+}
+.box-container > .container {
+  height: 430px;
+  width: 620px;
+  background-color: #117ca8;
+  display: flex;
+}
+.box-container > .container > .text-box {
+  text-align: start;
+  padding-left: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+
+.button-2 {
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* footer starts */
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  vertical-align: text-top;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+/* footer icon section with image */
+.footer-1 {
+  padding-bottom: 20px;
+  margin-right: 108px;
+}
+
+.footer-1 img {
+  width: 251px;
+  height: auto;
+}
+
+/* footer 2 section  */
+
+.footer-2 {
+  margin-right: 108px;
+}
+.footer-2 a {
+  display: block;
+  padding-bottom: 20px;
+  color: inherit;
+}
+
+/* footer 3 section  */
+.footer-3 {
+  margin-right: 60px;
+}
+
+.footer-3 a {
+  display: block;
+  padding-bottom: 20px;
+  color: inherit;
+}
+
+.footer-credits {
+  text-align: start;
+}

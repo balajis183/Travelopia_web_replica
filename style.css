@@ -1,0 +1,160 @@
+
+* {
+    font-family: Raleway, sans-serif;
+  }
+  
+  body {
+    padding: 0%;
+    margin: 0%;
+    /* font-family: Raleway, sans-serif; */
+    box-sizing: border-box; 
+    font-weight: 450;
+    display: block;
+  }
+  
+  /* navigation starts */
+  .header {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom:100px;
+  }
+  
+  #text-logo {
+    width: 151px;
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .logo {
+    width: 106px;
+    height: auto;
+    margin-top: -60px;
+    filter: brightness(1);
+  }
+  
+  .image-container img {
+    opacity: 1;
+    filter: brightness(0.7);
+  }
+  
+  .nav {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 30px;
+  }
+  
+  .nav-bar a {
+    margin-right: 20px;
+    color: white;
+    /* padding: 30px 15px 25px; */
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .center h1 {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    /* line-height: 1.4545454545em; */
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .p{
+    border: 10px;
+    max-width: 700px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+/* events */
+/* .body {
+    background-color: #3333;
+    font-family: 'Poppins',  sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+a{
+  text-decoration: none;
+}
+
+.events{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.box{
+  width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0x 2px 4px;
+  margin: 20px;
+}
+.img{
+ width: 100%;
+ height: auto;
+}
+.p{
+  padding: 26px;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  vertical-align: text-top;
+  font-size: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/* footer icon section with image */
+.footer-1 {
+  padding-bottom: 20px;
+  margin-right: 108px;
+}
+
+.footer-1 img {
+  width: 251px;
+  height: auto;
+}
+
+/* footer 2 section  */
+
+.footer-2 {
+  margin-right: 108px;
+}
+.footer-2 a {
+  display: block;
+  padding-bottom: 20px;
+  color: inherit;
+}
+
+/* footer 3 section  */
+.footer-3 {
+  margin-right: 60px;
+}
+
+.footer-3 a {
+  display: block;
+  padding-bottom: 20px;
+  color: inherit;
+}
+
+.footer-credits {
+  text-align: start;
+}
+
+    
