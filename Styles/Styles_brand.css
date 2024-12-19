@@ -37,13 +37,14 @@ body {
 
 .nav {
   display: flex;
-  position: fixed;
-  /* position: fixed    for making it fix and z index=1 */
+  position: absolute;
+  /* position: fixed  for making it fix and z index=1 */
   top: 8px;
   left: 16px;
   margin-top: 30px;
   z-index: 1;
 }
+
 
 .nav-bar a {
   margin-right: 50px;
@@ -55,6 +56,8 @@ body {
 #font-brands {
   font-weight: bold;
 }
+
+
 
 .center h1 {
   color: white;
